@@ -56,6 +56,8 @@ public class AuthController {
 				System.out.println(error.getDefaultMessage());
 			}
 			
+			System.out.println("aaaaaaaaaaaaa");
+			
 			throw new CustomValidationException("유효성 검사 실패함", errorMap);
 			
 		} else {
