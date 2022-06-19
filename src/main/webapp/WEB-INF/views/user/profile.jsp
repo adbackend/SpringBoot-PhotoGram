@@ -39,7 +39,7 @@
 				<ul>
 					<li><a href=""> 게시물<span>3</span>
 					</a></li>
-					<li><a href="javascript:subscribeInfoModalOpen();"> 구독정보<span>2</span>
+					<li><a href="javascript:subscribeInfoModalOpen();">구독정보<span>2</span>
 					</a></li>
 				</ul>
 			</div>
@@ -101,7 +101,7 @@
 <!--로그아웃, 회원정보변경 모달-->
 <div class="modal-info" onclick="modalInfo()">
 	<div class="modal">
-		<button onclick="location.href='/user/update'">회원정보 변경</button>
+		<button onclick="location.href='/user/1/update'">회원정보 변경</button>
 		<button onclick="location.href='/logout'">로그아웃</button>
 		<button onclick="closePopup('.modal-info')">취소</button>
 	</div>
